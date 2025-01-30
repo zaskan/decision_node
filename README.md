@@ -1,4 +1,4 @@
-Role Name
+decision_node
 =========
 
 This role serves as a helper to take decisions in ansible based on variables coming from previous nodes
