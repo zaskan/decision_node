@@ -6,7 +6,9 @@ This role serves as a helper to take decisions in ansible based on variables com
 Install
 -------
 
+```
 ansible-galaxy role install git+https://github.com/zaskan/decision_node.git
+```
 
 Use Example
 --------------
