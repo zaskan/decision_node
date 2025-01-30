@@ -13,7 +13,7 @@ ansible-galaxy role install git+https://github.com/zaskan/decision_node.git
 Use Example
 --------------
 
-Create a Job template which uses the following playbook:
+Create a Job template which uses the following playbook in order to test, which creates several variables:
 
 ```
 - name: Test decisions role - Task 1
@@ -26,7 +26,7 @@ Create a Job template which uses the following playbook:
           task_count: 4
 ```
 
-Create a second Job template using the following. You can add the vars at play or Job Template level via extra vars.
+Create a second Job template using the following content in order to avaluate the previous passed variables. You can add the vars at play or Job Template level via extra vars.
 
 ```
 - name: Test decisions role - Task 2
